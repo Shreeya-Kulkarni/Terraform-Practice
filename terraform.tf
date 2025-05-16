@@ -5,7 +5,7 @@ provider "aws" {
 
 resource "aws_instance" "web" {
   ami           = "ami-05e1c8b4e753b29d3"
-  instance_type = "t2.micro"
+  instance_type = "t2.nano"
   key_name = "shreeya-key"
 
   tags = {

@@ -1,12 +1,12 @@
 provider "aws" {
 
-   region = "ap-south-1"  
+   region = "us-west-1"  
 }
 
 resource "aws_instance" "web" {
-  ami           = "ami-06b6e5225d1db5f46"
+  ami           = "ami-05e1c8b4e753b29d3"
   instance_type = "t2.micro"
-  key_name = "mumbai-key"
+  key_name = "shreeya-key"
 
   tags = {
     Name = "HelloWorld"

@@ -1,3 +1,13 @@
+terraform {
+  backend "s3" {
+    bucket = "terraform-practice-shreeya"
+    region = "ap-south-1"
+  }
+}
+
+
+
+
 provider "aws" {
 
    region = "ap-south-1"  

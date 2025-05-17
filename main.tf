@@ -62,7 +62,7 @@ resource "aws_route_table" "mytable" {
 data "aws_security_group" "mysg" {
     filter {
       name = "group_name"
-      values = [mysg]
+      values = [ mysg ]
     }
   
 }

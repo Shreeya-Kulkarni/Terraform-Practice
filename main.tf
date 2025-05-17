@@ -59,7 +59,7 @@ resource "aws_route_table" "mytable" {
 }
 
 
-data "aws_security_group" "mysg" {
+data "aws_security_group" "default" {
     filter {
       name = "group_name"
       values = [ default  ]

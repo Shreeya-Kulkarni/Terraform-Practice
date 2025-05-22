@@ -1,6 +1,0 @@
-name: my first playbook
-host: all
-tasks:
-   -name: first task
-   debug:
-       msg: "this is my first task"
